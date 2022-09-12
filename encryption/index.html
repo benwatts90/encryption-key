@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="main.js"></script>
+    <title>Encryption</title>
+</head>
+<body>
+<div id="header">
+    <img src="title.png" id="title" alt="encryption-key-title">
+</div>    
+<div class="container">
+    <textarea id="encryptor-input">
+    Enter text for encryption...
+    </textarea>
+        <textarea id="encrypted-message">
+        Your encryption will appear here
+        </textarea>
+            <button onclick="encrypt()">
+                <img src="encrypt-button.png"
+                    class="button-text"
+                    alt="encryption-button-text">
+            </button>
+</div> 
+<div class="container">
+    <textarea id="decryptor-input">
+    enter encrypted message for decryption...
+    </textarea>
+        <textarea id="decrypted-message">
+        Your decryption will appear here
+        </textarea>
+            <button onclick="decrypt()">
+                <img src="decrypt-button.png"
+                    class="button-text"
+                    alt="decryption-button-text">
+            </button>
+</div>
+</body>
+</html>

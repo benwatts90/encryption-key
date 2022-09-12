@@ -1,0 +1,52 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+}
+
+#title {
+    margin: 20px;
+}
+
+.container { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    width: 300px;
+    height: auto;
+    background-color: darkcyan;
+    margin: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button-text {
+    width: 80%;
+}
+
+#encryptor-input, #decryptor-input, #encrypted-message, #decrypted-message {
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+    margin: 10px;
+    font-size: 22px;
+}
